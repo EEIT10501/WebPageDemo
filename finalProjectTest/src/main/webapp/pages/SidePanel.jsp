@@ -82,12 +82,8 @@ section:after {
 		<div>
 			<ul>
 				<c:choose>
-					<c:when test="${1==2}">
+				
 						<c:out value="使用者資料管理"></c:out>
-					</c:when>
-					<c:otherwise>
-						<c:out value=""></c:out>
-					</c:otherwise>
 				</c:choose>
 <!-- 				<li>使用者資料管理</li> -->
 				<li>請假核准</li>
